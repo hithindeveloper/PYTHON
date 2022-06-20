@@ -1,0 +1,8 @@
+tuple1=(10,20,30,40,50,60)
+temp=list(tuple1)
+temp.append(70)
+print(temp)
+temp.pop(2)
+print(temp)
+tuple1=tuple(temp)
+print(tuple1)
